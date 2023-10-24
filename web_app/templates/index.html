@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Argparse to Web</title>
+</head>
+<body>
+<form action="/" method="post">
+    Transaction Hash: <input type="text" name="tx_hash" required><br>
+    RPC URL: <input type="text" name="rpc_url" required><br>
+
+    <input type="radio" name="signature_search" value="true"> Enable Signature Search<br>
+    <input type="radio" name="short_address" value="true"> Shrink Address<br>
+    <input type="radio" name="short_data" value="true"> Show only 1 slot of data<br>
+    <input type="radio" name="ignore_hash" value="false"> Not print keccak256 call<br>
+    <input type="radio" name="ignore_return_value" value="false"> Not print return value<br>
+    <input type="radio" name="ignore_system_contract" value="false"> Not print system contract<br>
+    <input type="radio" name="skip_bootloader" value="true"> Remove bootloader process<br>
+
+    <input type="submit" value="Submit">
+</form>
+</body>
+</html>

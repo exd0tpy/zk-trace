@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mermaid Result</title>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@8/dist/mermaid.min.js"></script>
+</head>
+<body>
+<script>
+    mermaid.initialize({startOnLoad:true});
+</script>
+
+<pre class="mermaid">
+{{ data }}
+</pre>
+
+<!-- Back to Index 버튼 추가 -->
+<a href="{{ url_for('index') }}" class="btn">Back to Index</a>
+
+</body>
+</html>
