@@ -7,10 +7,10 @@ Smart trace for zksync transaction.
 - Ignore system contract logic
 - Demo webapp
 
-### Usage
+## Usage
 `usage: tracer.py [-h] [--signature-search] [--short-address] [--short-data] [--ignore-hash] [--ignore-return-value] [--ignore-system-contract] [--skip-bootloader] tx_hash rpc_url`
 
-### TODO
+## TODO
 - [ ] Contract abi integration
     - [ ] Track function call arguments
 
